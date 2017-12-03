@@ -9,6 +9,7 @@ import Container from './containers/Container';
 import reducers from './reducers';
 
 
+
 const history = browserHistory;
 const store = createStore(reducers, applyMiddleware(thunk));
 const routes = makeRoutes();
