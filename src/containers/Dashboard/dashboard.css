@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    border: 0px solid black;
+    padding: 15px;
+    text-align: center;
+}
+.leftSideMenu {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 1px solid black;
+}
+.main {
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid black;
+}
+.fullWidthDiv {
+    background-image:url("/Users/stephenwicks/Documents/clients/us-bank/header-Depositphotos_142949415_l-2015.jpg");
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    background-size: cover;
+}
+.headerText h1 {
+    
+}
